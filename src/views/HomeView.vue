@@ -7,23 +7,52 @@ export default {
   },
   setup() {
     const router = useRouter();
-    const isIntroScolled = ref(false);
-
-    const handleScroll = () => {
-      const targetDiv = document.getElementById("intro");
-      const rect = targetDiv.getBoundingClientRect();
-
-      if (rect.top >= 0 && rect.bottom / 2 <= window.innerHeight) {
-        isIntroScolled.value = true;
-      }
-    };
+    const screenRefs = ref([]);
 
     onMounted(() => {
-      window.addEventListener("scroll", handleScroll);
+      const activeIndices = ref(new Set());
+
+      const defaultObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const index = Array.from(screenRefs.value).indexOf(entry.target);
+            if (entry.isIntersecting && !activeIndices.value.has(index)) {
+              entry.target.classList.add("animate");
+              activeIndices.value.add(index);
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      const screen25_4Observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const index = Array.from(screenRefs.value).indexOf(entry.target);
+            if (entry.isIntersecting && !activeIndices.value.has(index)) {
+              entry.target.classList.add("animate");
+              activeIndices.value.add(index);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      screenRefs.value = Array.from(
+        document.querySelectorAll(".screen_container")
+      );
+
+      screenRefs.value.forEach((el) => {
+        if (el.parentElement.id == "screen_25_2" || el.parentElement.id == "screen_25_4" ) {
+          defaultObserver.observe(el);
+        } else if(el.parentElement.id == "screen_25_3" || el.parentElement.id == "screen_25_5") {
+          screen25_4Observer.observe(el);
+        }
+      });
+
     });
 
     return {
-      isIntroScolled,
     };
   },
 };
@@ -32,44 +61,44 @@ export default {
 <template>
   <main>
     <div id="screen_25_1">
-      <div class="screen_container">
+      <div class="screen_container animate">
 
         <div class="left_side">
-          <img src="/assets/img/S25-01-banner2.png" style="width: 80%; margin: 50px 0">
-          <img src="/assets/img/S25-01-food.png">
+          <img src="/assets/img/S25-01-banner2.webp" style="width: 80%; margin: 50px 0">
+          <img src="/assets/img/S25-01-food.webp">
         </div>
 
-        <img src="/assets/img/S25-01-banner.png" class="banner">
+        <img src="/assets/img/S25-01-banner.webp" class="banner">
 
         <div class="right_side">
-          <img src="/assets/img/S25-01-food2.png">
-          <img src="/assets/img/S25-01-banner3.png" style="width: 60%; margin: 30px 0">
-          <img src="/assets/img/S25-01-food3.png">
+          <img src="/assets/img/S25-01-food2.webp">
+          <img src="/assets/img/S25-01-banner3.webp" style="width: 60%; margin: 30px 0">
+          <img src="/assets/img/S25-01-food3.webp">
         </div>
       </div>
     </div>
 
     <div id="screen_25_2">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen2.png" class="banner">
+        <img src="/assets/img/S25-01-screen2.webp" class="banner">
       </div>
     </div>
 
     <div id="screen_25_3">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen3.png" class="banner">
+        <img src="/assets/img/S25-01-screen3.webp" class="banner">
       </div>
     </div>
 
     <div id="screen_25_4">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen4.png" class="banner">
+        <img src="/assets/img/S25-01-screen4.webp" class="banner">
       </div>
     </div>
 
     <div id="screen_25_5">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen5.png" class="banner">
+        <img src="/assets/img/S25-01-screen5.webp" class="banner">
       </div>
     </div>
 

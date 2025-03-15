@@ -3,6 +3,31 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
 
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .screen_container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+  
+    &.animate {
+      opacity: 1;
+      transform: translateY(0);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+  }
+
+
+
 html,
 body {
     /* 先套用 Noto Sans TC 這個 思源黑體 */
