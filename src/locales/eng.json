@@ -1,0 +1,438 @@
+{
+  "header": {
+    "index": "Home",
+    "about": "About",
+    "material": "Materials",
+    "product": "Products",
+    "lab": "Our Lab",
+    "service": "Services"
+  },
+
+  "footer": {
+    "company": "Fluorez Technology, Ltd.",
+    "address": "11F.-24, No. 6, Ln. 180, Sec. 6, Minquan E. Rd., Neihu Dist., Taipei City 114, Taiwan",
+    "phone": "+886-2-22173688",
+    "fax": "+886-2-22176411",
+    "email": "{'sales@fluorez.com'}",
+    "intro": "Fluorez Technology, Ltd."
+  },
+  "cookie": {
+    "consent": "This website uses cookies to provide a better user experience. By continuing to use this website, you agree to our use of cookies.",
+    "accept": "I Agree"
+  },
+
+  "about": {
+    "intro": "Founded in 2005, Fluorez Technology Co., Ltd. specializes in high-quality perfluoroelastomer (FFKM) products. To meet market demands and support Taiwan's semiconductor localization policy, we launched the \"Fluorez®\" brand, made in Taiwan.",
+    "badge": {
+      "professional": "PROFESSIONAL",
+      "quality": "BEST QUALITY",
+      "service": "CUSTOMER SERVICE",
+      "service_mobile": "CUSTOMER<br/>SERVICE"
+    },
+    "professional": {
+      "title": "Professionalism",
+      "content": "With extensive market experience, we prioritize effective communication to choose the right materials and formulations. We offer a diverse product line, including compounded perfluoroelastomers and standard components made from FKM and FFKM. We also provide customized FKM/FFKM products and FDA and USP Class VI compliant solutions for the food and medical industries."
+    },
+    "quality": {
+      "title": "Quality",
+      "content": "ISO certified, our products are tested by third-party labs to comply with the latest EU chemical regulations and standards for hazardous substances. Products produced in our cleanrooms adhere to international ASTM and ISO standards. Rigorous sampling ensures high product standards."
+    },
+    "service": {
+      "title": "Service",
+      "content": "We collaborate on OEM and ODM production, providing comprehensive solutions and laboratory analysis for pre- and post-sales support. Our customized inventory management enhances efficiency and cost-effectiveness."
+    },
+    "pfas": {
+      "q1": "Do our products contain PFAS?",
+      "a1": "At Fluorez Technology, we prioritize the safety and compliance of our products with international environmental regulations. We are fully aware of concerns surrounding PFAS (Per/Polyfluoroalkyl Substances), a group of chemicals known for their persistence in the environment and potential health risks.",
+      "q2": "What is PFAS?",
+      "a2": "PFAS are a large group of synthetic chemicals used in many industries due to their unique properties, such as water and oil resistance, low friction, and stability. However, certain PFAS, like PFOA and PFOS, are of particular concern because of their long-lasting nature and potential to accumulate in the environment and living organisms.",
+      "q3": "Compliance with Global Regulations",
+      "a3": "We adhere to global regulatory standards, ensuring that our products are free from regulated PFAS compounds such as PFOA and PFOS. These regulations include the EU REACH, US EPA, and other international bodies. Our raw materials, including FKM and FFKM, have been thoroughly reviewed to ensure they do not contain banned PFAS compounds. We regularly audit our supply chain and update our materials in accordance with evolving regulatory standards.",
+      "q4": "Providing Safe, Reliable Products",
+      "a4": "Our commitment to safety and environmental responsibility ensures that all of our products meet the highest standards. Whether it’s seals for the automotive industry or components for semiconductor manufacturing, we ensure compliance with regulations in Europe, North America, Asia, and beyond. By continuously working with trusted suppliers like Solvay, ACG and Chemours, we stay ahead of regulatory changes, ensuring that our products remain compliant and safe for various applications. We are your trusted partner for environmentally friendly sealing solutions.",
+      "q5": "Global PFAS Regulations",
+      "table": {
+        "th1": "Country/Region",
+        "th2": "Regulation",
+        "th3": "Regulated PFAS",
+        "th4": "Notes",
+        "row1": {
+          "country": "EU",
+          "regulation": "EU POPs",
+          "substances": "PFOS and its salts and related compounds, PFOA and its salts and related compounds",
+          "note": "Prohibited"
+        },
+        "row2": {
+          "country": "EU",
+          "regulation": "REACH Annex 17",
+          "substances": "PFCA and its salts and related compounds",
+          "note": "Prohibited above restriction limit"
+        },
+        "row3": {
+          "country": "EU",
+          "regulation": "REACH SVHC",
+          "substances": "APFO, PFOA, PFDA, PFHxS, PFBS",
+          "note": "Notification required"
+        },
+        "row4": {
+          "country": "USA",
+          "regulation": "TSCA",
+          "substances": "LC-PFAC (20 items)",
+          "note": "Notification required"
+        },
+        "row5": {
+          "country": "USA",
+          "regulation": "CP65",
+          "substances": "PFOA, PFOS and their salts and related compounds, PFNA",
+          "note": "Warning label required"
+        },
+        "row6": {
+          "country": "Japan",
+          "regulation": "Chemical Substances Control Law",
+          "substances": "PFOS and its salts and related compounds, PFOA and its salts and related compounds",
+          "note": "Import prohibited for specific products"
+        },
+        "row7": {
+          "country": "Canada",
+          "regulation": "SOR 2016-252",
+          "substances": "PFCA and its salts and precursors, LC-PFCA and its salts and precursors, PFOS and its salts and precursors",
+          "note": "Prohibited"
+        },
+        "row8": {
+          "country": "UK",
+          "regulation": "REACH Annex 17",
+          "substances": "PFOA and its salts and related compounds",
+          "note": "Prohibited above restriction limit"
+        },
+        "row9": {
+          "country": "UK",
+          "regulation": "REACH SVHC",
+          "substances": "APFO, PFOA, PFDA, PFHxS, PFBS",
+          "note": "Notification required"
+        },
+        "row10": {
+          "country": "China",
+          "regulation": "Priority Controlled Chemicals List (2023)",
+          "substances": "PFOS and its salts and related compounds, PFOA and its salts and related compounds, PFHxS and its salts and related compounds",
+          "note": "Prohibited for use within borders"
+        }
+      }
+    }
+  },
+
+  "index": {
+    "intro": "Fluorez Technology offers diversified fluorine products and fluororubber products, adhering to Taiwan manufacturing, and creating a series of fluororubber (fluoroelastomer, FKM) finished products, as well as perfluororubber (perfluoroelastomers, FFKM) compounds and finished products. Fluorez's independent laboratory provides rigorous testing data, ensuring the quality and stability of each product. We offer fluororubber O-rings (O-rings), gaskets, seals, sheets, molds, expandable seals, and metal bonding components, as well as customized O-ring repair kits. With evolving quality requirements and services, we aim to become a partner in helping customers succeed.",
+    "feature1_title": "Perfluoroelastomer",
+    "feature2_title": "Fluoroelastomer",
+    "feature3_title": "Special Fluoroelastomer",
+    "feature4_title": "Perfluorinated Liquid",
+    "feature1_subtitle": "Fluoroelastomer (FKM) has different brand names from different manufacturers. DuPont®'s FKM brand name is Viton®, 3M®'s FKM brand name is Dyneon®; Daikin®'s brand name is DAI-EL®, and Japanese Asahi Glass®'s brand name is Aflas®.",
+    "feature2_subtitle": "Fluoroelastomer (FKM) has different brand names from different manufacturers. DuPont®'s FKM brand name is Viton®, 3M®'s FKM brand name is Dyneon®; Daikin®'s brand name is DAI-EL®, and Japanese Asahi Glass®'s brand name is Aflas®.",
+    "feature3_subtitle": "The so-called special fluororubber refers to fluororubbers other than Viton A: products with high fluorine content, whose raw materials have a fluorine content between 67-70%, which have stronger resistance and physical properties compared to general fluorine-containing FKM, but are also relatively more expensive, low-temperature resistant products, and peroxide-crosslinked products.",
+    "feature4_subtitle": "• Non-flammable even in high oxygen oxidizing environments<br/>• Does not react with metals, plastics, rubber, or most materials<br/>• Wide working temperature range from -60°C to 165°C<br/>• Excellent insulation properties at both high and low temperatures<br/>• Superior thermal conductivity",
+    "feature5": {
+      "title": "Sustainable Commitment to<br>Safety and Environmental<br> Responsibility",
+      "content": "Safe and reliable products compliant<br> with global regulatory standards",
+      "content_2": "Do our products contain PFAS?",
+      "readmore": ">> Learn More"
+    },
+    "feature6": {
+      "title": "ISO 9001, JIS mark and IATF 16949 Quality Policy",
+      "content_1": "We fully implement ISO 9001, JIS Q1001, and IATF 16949 related operation standards to structure our quality management system, enhance stainless steel expertise and service quality, and implement continuous improvement to enhance quality and productivity to achieve customer satisfaction. We commit to establishing quality objectives based on our quality policy and implementing various improvement measures to continuously improve our quality management system while meeting customer and regulatory requirements.",
+      "btn": "Learn More"
+    }
+  },
+  "service": {
+    "pageIntro": "At Fluorez Technology Ltd., we are dedicated to providing high-performance elastomer solutions through advanced production processes and customer-focused services. We specialize in offering customized compounding, customized finished parts, and inventory planning to meet our clients’ specific needs.",
+    "customCompoundTitle": "Customized Compounding",
+    "customCompoundText1": "We understand that each application has unique material requirements. Fluorez offers tailored compounding services for FFKM and FKM elastomers, ensuring the ideal properties such as chemical resistance, thermal stability, and mechanical durability.",
+    "customCompoundText2": "Our laboratory team works closely with clients to develop customized compounds optimized for performance in demanding environments, such as high temperatures or exposure to aggressive chemicals.",
+    "customPartsTitle": "Customized Finished Parts",
+    "customPartsText": "In addition to raw materials, Fluorez also provides customized finished parts according to client specifications. From O-rings to complex sealing solutions, our manufacturing processes are designed to deliver precision-molded components that meet stringent industry standards. We pride ourselves on flexibility, offering parts made from FFKM and FKM compounds for a wide range of industries, including aerospace, semiconductors, and chemical processing.",
+    "inventoryPlanTitle": "Customized Inventory Plan",
+    "inventoryPlanText": "Fluorez offers a customized inventory planning service to help clients manage their supply chains more effectively. By maintaining strategic stock levels of key compounds and finished parts, we ensure timely deliveries, reducing downtime and enhancing operational efficiency. Our inventory solutions are designed to align with your production schedules, ensuring the materials you need are always available when required.",
+    "technicalSupportTitle": "Technical Support and Consulting",
+    "technicalSupportText": "We don’t just provide materials; we offer comprehensive technical support to help you select the right product for your needs. With our advanced in-house laboratory, we can also assist customers with failure analysis, quickly diagnosing and resolving material performance issues. Our expert team offers guidance on material selection, performance optimization, and troubleshooting to ensure you get the best results from our products. Whether it's O-rings or customized molded parts, we provide solutions that are engineered for excellence."
+  },
+  "product": {
+    "color": {
+      "black": "Black",
+      "white": "White",
+      "beige": "Beige",
+      "creamwhite": "Cream White",
+      "darkamber": "Dark Amber"
+    },
+    "ffkm": {
+      "title": "FFKM Perfluoroelastomer",
+      "chemicalResistant": {
+        "title": "Chemical Resistant Perfluoroelastomer",
+        "description": "Perfluoroelastomer (FFKM) formulations based on peroxide curing provide excellent and broad chemical resistance. Although the maximum operating temperature is not as high as high-temperature perfluoroelastomers, they offer a more economical option for applications in the petrochemical industry, semiconductor facility management, and various other scenarios requiring the sealing of organic solvents. We offer different formulations for various applications and also provide customized formulation services. All materials are available in finished and semi-finished forms. ",
+        "equivalent": "Chemical resistant FKM. Equivalent to Kalrez® 6375, Chemraz® 505.",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
+        }
+      },
+      "thermalResistant": {
+        "title": "Thermal Resistant Perfluoroelastomer",
+        "description1": "Our perfluoroelastomer (FFKM) formulations based on nitrile curing provide excellent and broad chemical resistance. The high-temperature resistance is further enhanced up to 330°C. These formulations are ideal for processes requiring high-temperature resistance, such as petrochemical industries, semiconductor equipment, and various applications needing the sealing of organic solvents. We offer different formulations for various applications and also provide customized formulation services. All materials are available in both finished and semi-finished forms.",
+        "equivalent": "Thermal resistant FFKM. Equivalent to Kalrez® 4079",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
+        }
+      },
+      "highPurity": {
+        "title": "Ultra-Purity Perfluoroelastomers",
+        "cert": "Ultra-purity, low extractable perfluoroelastomer FFKM. Equivalent to Kalrez® 8900, 9100, Chemraz® 629",
+        "intro": "Ultra-purity perfluoroelastomers have the following features:",
+        "feature1": "1. Excellent Chemical Stability: These perfluoroelastomers exhibit strong chemical resistance, capable of withstanding almost all chemicals, including strong acids, strong bases, and solvents.",
+        "feature2": "2. Very Low Extractables: High purity perfluoroelastomers have very low extractables during use, making them crucial for applications requiring high cleanliness, such as semiconductor manufacturing, medical devices, and the pharmaceutical industry.",
+        "feature3": "3. Outstanding High-Temperature Performance: These elastomers can operate stably at extremely high temperatures (typically up to 300°C or higher) without significant degradation in performance.",
+        "feature4": "4. Low Gas Permeability: High purity perfluoroelastomers have very low gas permeability, making them ideal for vacuum environments and applications requiring gas tightness.",
+        "feature5": "5. Excellent Mechanical Properties: Perfluoroelastomers possess high strength, high elasticity, and wear resistance, maintaining superior performance in harsh physical environments.",
+        "feature6": "6. Wide Temperature Range Adaptability: In addition to high-temperature resistance, these elastomers maintain good elasticity and sealing properties in low-temperature environments, covering a wide working temperature range.",
+        "feature7": "7. Plasma Resistance: High purity perfluoroelastomers remain stable in plasma environments, resisting plasma erosion, which is particularly important for plasma etching processes in semiconductor manufacturing.",
+        "feature8": "8. High Purity Processing: During production, these elastomers typically undergo special cleaning treatments to ensure product purity meets high-demand applications.",
+        "applications": "Due to their superior chemical and physical properties, high purity perfluoroelastomers are widely used in semiconductor manufacturing, chemical processing, pharmaceuticals, medical equipment, and other fields requiring high cleanliness and chemical resistance.",
+        "customization": "For different semiconductor processes, we have developed various high purity perfluoroelastomer formulations. All materials are available in finished and semi-finished forms. ",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
+        }
+      },
+      "lowCompression": {
+        "title": "Low Compression Set Perfluoroelastomer",
+        "description": "Low Compression Set Perfluoroelastomers (Low Compression Set FFKM) offer several key advantages, including: <br>1. Excellent Durability: These elastomers maintain their elasticity and shape over long periods, reducing material fatigue and deformation, which extends their service life. <br>2. Good Sealing Performance: With a low compression set rate, these rubber materials can maintain effective sealing, preventing leaks of liquids or gases in sealing applications. <br>3. Wide Temperature Range: Low compression set elastomers can maintain their performance over a wide temperature range, making them suitable for various extreme temperature environments. <br>4. Chemical Resistance: These perfluoroelastomer materials exhibit excellent chemical resistance, capable of withstanding various chemical substances, making them ideal for chemical and petroleum industries. <br>5. High Elasticity: These elastomers possess excellent elasticity and rebound, allowing them to quickly return to their original shape even under repeated pressure. <br>6. Versatile Applications: Low compression set elastomers are widely used in the automotive, electronics, aerospace, and medical industries, showcasing their multipurpose nature.",
+        "applications": "These advantages make low compression set elastomers indispensable in applications requiring high-performance sealing and durability. All materials are available in finished and semi-finished forms. ",
+        "equivalent": "Low compression set, Thermal resistant FFKM. Equivalent to Kalrez® 7075",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
+        }
+      },
+      "foodMedical": {
+        "title": "Food and Medical Grade",
+        "fda": "FDA compliant FFKM",
+        "cert": "USP CI VI compliant FFKM",
+        "intro": "Food and Medical Grade Perfluoroelastomer (FFKM) has the following characteristics: Compliance with food and medical standards: This type of perfluoroelastomer material complies with strict standards in food and medical industries, such as FDA (Food and Drug Administration) and USP Class VI (United States Pharmacopeia Class VI), ensuring its safety and reliability when in contact with food and medical products.",
+        "feature1": "Extremely low extractables: Food and medical grade perfluoroelastomer has very low extractables during use, which is crucial for avoiding contamination of food and medical products.",
+        "feature2": "Chemical resistance: This rubber material has excellent chemical resistance, able to resist corrosion from various chemicals, including acids, bases, solvents, and cleaning agents, suitable for applications requiring frequent cleaning and sterilization.",
+        "feature3": "High temperature performance: Food and medical grade perfluoroelastomer maintains its physical and chemical properties at high temperatures, without degradation or failure, suitable for high-temperature sterilization processes.",
+        "feature4": "Biocompatibility: This rubber material is non-toxic and non-irritating to human tissue, with good biocompatibility, suitable for sealing and contact parts in medical equipment and devices.",
+        "feature5": "Excellent mechanical properties: Possesses high strength, elasticity, and wear resistance, maintaining stable sealing performance and mechanical strength during long-term use.",
+        "feature6": "Low gas permeability: Has low gas permeability, ensuring effective gas-tightness and protection in food and medical applications.",
+        "fdaTitle": "Food Grade Perfluoroelastomer (FDA Grade FFKM):",
+        "fdaDescription1": "The FDA (U.S. Food and Drug Administration) has established a regulation for the use of rubber in food-related applications, known as FDA CFR 21.177.2600, which is both a U.S. law and an international standard. Sections A to D of FDA CFR 21.177.2600 describe the requirements for \"rubber\" products intended for repeated use. Sections E and F further specify the extractable limits for FDA rubber seals when in contact with aqueous or fatty foods. The regulation defines the extract testing limits in water and n-hexane.",
+        "fdaDescription2": "The FDA does not \"approve\" any product conforming to CFR 21.177.2600 but provides guidelines for manufacturers and users to follow and choose from. Compliance is demonstrated by the final manufacturer of FDA rubber products issuing an FDA certificate. It is also important to note that while a component may be made from FDA rubber material suitable for food contact, it does not necessarily mean that the component is technically suitable for its intended application.",
+        "fdaDescription3": "Food and medical-grade perfluoroelastomers, due to their outstanding chemical and physical properties, are widely used in food processing and safety fields. We offer perfluoroelastomers that meet FDA standards, available in both finished and semi-finished forms.",
+        "medicalTitle": "Medical Grade Perfluoroelastomer (Medical Grade FFKM):",
+        "medicalDescription1": "Medical grade FFKM (Medical grade FFKM) must comply with the regulations of the US Pharmacopeia Class VI (USP Cl VI). Fluorez FFKM UFT753 and UFT750, developed by Fluorez Technology, have passed third-party laboratory testing, meeting the requirements of US Chapter 87 (or ISO 10993-5) and Chapter 88 (or ISO 10993-6, -10, -11), as well as the testing requirements for USP Class VI polymers. This type of FFKM material meets the strict standards of the food and medical industries, such as FDA (Food and Drug Administration) and USP Class VI (United States Pharmacopeia Class VI), ensuring its safety and reliability when in contact with food and medical products.",
+        "medicalDescription2": "Fluorez Technology's medical grade FFKM is also a food-grade FFKM that meets food-grade requirements, with its excellent chemical and physical properties widely applied in medical devices, pharmaceuticals, and fields related to biocompatibility, with all materials available in finished products.",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
+        }
+      },
+      "products": {
+        "intro": "For finished products, we offer:",
+        "item1": "• Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S and international metric)",
+        "item2": "• Various custom parts",
+        "item3": "• Metal-bonded parts"
+      },
+      "contact": "For other special finished items, please contact us"
+    },
+    "fkm": {
+      "title": "FKM Fluoroelastomers",
+      "intro1": "FKM products generally refer to fluoroelastomer materials with a 66% fluorine content, commonly known as Viton® A. However, there are also high-fluorine content fluoroelastomers, with fluorine content ranging between 67-70%. These high-fluorine products offer superior chemical resistance and physical properties compared to standard FKM, though they come at a higher cost. They are used in environments with more stringent requirements. Different brands of fluoroelastomers have unique features. To meet specific needs such as high-temperature resistance, chemical resistance, and resistance to high-temperature water vapor, FKM needs to be processed by compounding facilities to adjust the base material and additives.",
+      "intro2": "Selecting the appropriate fluoroelastomer product relies not only on experience but also on testing various formulations to meet specific application requirements. FKM fluoroelastomers are polymers made from different monomers including vinylidene fluoride (VDF), hexafluoropropylene (HFP), tetrafluoroethylene (TFE), perfluoromethyl vinyl ether (PMVE), and ethylene. Each combination results in different fluorine content and application performance. For Chemours' FKM products like Viton®, the selection criteria are as follows: Fluorez Technology offers a variety of Viton® products and corresponding specifications for customers. For other special product requirements, please contact us.",
+      "table": {
+        "header": {
+          "product": "Viton Products"
+        },
+        "row": {
+          "fluorine": "Fluorine content (wt%)",
+          "chemical": "Chemical resistance",
+          "base": "Base resistance",
+          "temperature": "Low temperature properties",
+          "compression": "Compression set resistance"
+        }
+      },
+      "rating": {
+        "excellent": "★★★ Excellent",
+        "veryGood": "★★ Very Good",
+        "good": "★ Good", 
+        "fair": "○ Fair",
+        "poor": "× Poor"
+      }
+    },
+    "specFkm": {
+      "title": "Special Fluoroelastomers",
+      "intro1": "Special fluoroelastomers refer to fluoroelastomers other than Viton A: including high-fluorine products with fluorine content between 67-70%, which have stronger chemical resistance and physical properties compared to regular FKM but come at a higher price, low-temperature resistant products, and peroxide-cured products. These are used in applications with more demanding environmental requirements. Different brands of fluoroelastomers have their own characteristics. For different requirements such as higher temperature resistance, chemical resistance, and resistance to high-temperature water vapor, fluoroelastomers must be manufactured through compounding plants adjusting the FKM raw rubber material and different additives. Therefore, selecting suitable fluoroelastomer products relies not only on experience but also on testing different compound formulations to meet usage requirements.",
+      "intro2": "Fluorez Technology has its own rubber compounding plant equipment and focuses on FKM compound research and development, selling various standard and custom FKM finished products. We have complete AS-568A, JISB2401P, V, G, S molds. We also accept customer-specified special FKM products, whether in various colors, forms, hardness, or environmental requirements. Metal-bonded fluoroelastomer products are also part of our services, and we can also provide PTFE (Teflon) and PFA-coated seals, FEP (fluoropolymer) spray-coated seals. Additionally, for special environment fluoroelastomer use, we have developed a series of special fluoroelastomer series to handle environments that regular fluoroelastomers cannot handle.",
+      "series": {
+        "intro": "Including:",
+        "highPurity": "・High purity low outgassing series",
+        "thermalResistant": "・Special thermal resistant fluoroelastomer series",
+        "highFluorine": "・High fluorine series",
+        "chemicalResistant": "・Excellent chemical resistant fluoroelastomer series",
+        "antiStatic": "・Anti-static series",
+        "lowTemperature": "・Low temperature series"
+      },
+      "conclusion": "Similar products in the market are often over-packaged and compared with perfluoroelastomers (FFKM), which is actually meaningless. Because when selecting sealing materials, it's not just about the operating environment - service life is often an important selection point. Regardless of which fluoroelastomer product, each has its own environment where it performs well and corresponding fatigue characteristics. FFKM still has its irreplaceability in terms of cleanliness, service life, and temperature and chemical resistance. For selection, we often recommend customers discuss with manufacturers, as necessary testing is often more efficient than written text. Only by applying suitable materials in suitable application ranges can we achieve balance between economic considerations and expected usage conditions. For other special finished items, please contact us."
+    },
+    "pfls": {
+      "engMenuTitle": "Perfluorinated Liquids (PFLs)",
+      "title": "Electronic Perfluorinated Liquids (PFLs) (Cooling Fluids)",
+      "intro": "Electronic perfluorinated liquids are colorless, transparent, odorless, non-toxic, and thermally stable fully fluorinated liquids that meet the demands of various heat transfer, manufacturing, and testing applications. They have excellent thermal and chemical stability and are compatible with active materials such as metals, plastics, and elastomers. Depending on their boiling points, electronic perfluorinated liquids are suitable for many single-phase heat transfer applications in the semiconductor manufacturing industry and for leak testing in the electronics industry. They have a wide working temperature range, making them ideal for heat transfer applications in etching machines, ion implantation machines, and testing equipment.",
+
+      "table1": {
+        "header": "Perfluorinated Liquids (PFLs)",
+        "test": "Test",
+        "solventTest": "Solvent Test",
+        "testLiquid": "Test Liquid (Bubble Tank)",
+        "tempShockTest": "Temperature Shock Test",
+        "lowTemp": "Low Temperature Side",
+        "highTemp": "High Temperature Side",
+        "humidityTest": "Humidity Resistance/Strength Test",
+        "tempConduction": "Low/High Temperature Conduction etc.",
+        "voltageTest": "High Voltage/Dielectric Test",
+        "liquidBath": "Liquid Bath"
+      },
+      "table2": {
+        "header": "Product Specifications",
+        "appearance": "Appearance",
+        "colorless": "Clear, Colorless",
+        "molecularWeight": "Average Molecular Weight",
+        "boilingPoint": "Boiling Point ℃",
+        "freezingPoint": "Freezing Point ℃",
+        "criticalTemp": "Estimated Critical Temperature ℃",
+        "criticalPressure": "Estimated Critical Pressure Mpa",
+        "density": "Density g/cm3",
+        "specificHeat": "Specific Heat at Boiling Point J/g",
+        "kinematicViscosity": "Kinematic Viscosity cSt",
+        "absoluteViscosity": "Absolute Viscosity cP",
+        "vaporPressure": "Vapor Pressure kPa",
+        "specificHeatCapacity": "Specific Heat Capacity J·kg-1·℃-1",
+        "thermalCoefficient": "Thermal Coefficient K-1",
+        "surfaceTension": "Surface Tension mN/m",
+        "dielectricStrength": "Dielectric Strength KV (2.54 mm)",
+        "dielectricConstant": "Dielectric Constant (1KHz)",
+        "dissipationFactor": "Dissipation Factor (1KHz)",
+        "resistivity": "Resistivity ohm-cm",
+        "waterSolubility": "Water Solubility ppm",
+        "solubilityInWater": "Solubility in Water ppmw",
+        "ozoneDepletion": "Ozone Depletion Value"
+      }
+    }
+  },
+  "lab": {
+    "intro": "<strong>At Fluorez Technology Ltd.</strong>, we are unwavering in our commitment to delivering superior FKM (Fluoroelastomer) and FFKM (Perfluoroelastomer) products. Our confidence in the quality and reliability of our products is rooted in our rigorous quality control measures and comprehensive testing carried out in our own state-of-the-art laboratory. <br><br><strong>Advanced In-House Testing Capabilities:</strong><br> Our laboratory is equipped with cutting-edge instruments that enable us to conduct a wide range of tests to ensure our products meet the highest industry standards:",
+    "ffkmTitle": "Clean Room Production",
+    "equipment1": "Sulfur Test Instrument",
+    "equipment2": "Shore Hardness Tester",
+    "equipment3": "Viscosity Test Instrument",
+    "equipment4": "Cutting Sample Machine",
+    "equipment5": "Tensile Strength Test Instrument",
+    "equipment6": "Optical Measurement Instrumnet",
+    "equipment7": "Density Meter",
+    "equipment8": "Hydraulic Cutting Machine",
+    "equipment9": "Mixing Machine",
+    "qualityAssurance": {
+      "title": "Commitment to Quality Assurance",
+      "content": "Our comprehensive testing regimen enables us to monitor every aspect of the production process meticulously. By controlling material properties from the raw compound stage through to the finished product, we ensure that each batch meets stringent quality criteria. This meticulous attention to detail reduces variability, enhances product reliability, and provides our customers with materials they can trust."
+    },
+    "cleanroom": {
+      "title": "Clean Room Manufacturing Environment",
+      "content": "Understanding the importance of product purity and contamination control, we maintain a clean room within our manufacturing facility. This controlled environment minimizes the presence of airborne particles and other contaminants, which is especially critical for products used in sensitive applications such as semiconductor manufacturing, pharmaceuticals, and aerospace. The clean room environment ensures that our seals and components maintain their integrity and performance in the most demanding conditions."
+    },
+    "customerSupport": {
+      "title": "Customer Support and Technical Expertise",
+      "intro": "Beyond our manufacturing capabilities, we pride ourselves on our robust knowledge base and technical expertise in elastomer technology. Our team is dedicated to supporting our customers by:",
+      "point1": "Providing detailed technical data and guidance to help select the most suitable materials for specific applications.",
+      "point2": "Offering insights into material performance under various operating conditions.",
+      "point3": "Assisting with troubleshooting and optimizing product performance.",
+      "conclusion": "We believe that collaboration and knowledge sharing are key to mutual success. By partnering with our customers, we aim to contribute to the development of innovative solutions that meet and exceed industry challenges."
+    },
+    "qualityManagement": {
+      "title": "Quality Management System Alignment",
+      "content": "Our quality control processes are aligned with international standards such as ISO 9001:2015, ensuring that our operations are efficient, consistent, and continually improving. This alignment underscores our commitment to maintaining a quality management system that enhances customer satisfaction and meets regulatory requirements."
+    },
+    "conclusion": "At Fluorez Technology Ltd., quality is not just a goal—it's an integral part of our culture and operations. From our advanced laboratory testing to our clean room manufacturing and dedicated customer support, every aspect of our business is focused on delivering excellence. We invite you to experience the difference that our commitment to quality can make in your applications and look forward to the opportunity to support your needs with our high-performance FKM and FFKM products."
+  },
+
+  "material": {
+    "hpiCpiApplications": "HPI/CPI applications",
+    "semiconApplications": "Semicon applications",
+    "ffkmIntro": "<p>Perfluoroelastomer (FFKM), also known as fully fluorinated elastomer, was first developed by DuPont® in 1968, marking it as the first fully fluorinated rubber and also dominate the market. The development patents from  DuPont® have since expired. Similar to FKM fluoroelastomers, FFKM is often confused in the market with various trade names from different suppliers. For example, DuPont®'s Kalrez® rubber series has historically been associated with FFKM, but Kalrez® is merely a brand name and not the chemical molecule name; there is no compounded rubber form of Kalrez® available on the market but just finished parts. With the expiration of development patents, several major chemical companies have actively engaged in synthesizing FFKM materials. Examples include Solvay® of Italy, Daikin® of Japan with their Dupra® products, and Asahi Glass (ACG)® of Japan with Aflas® FFKM products. 3M®'s Dyneon® will exit FFKM market after 2025.</p><p>Perfluoroelastomer (FFKM) is a high-performance elastomer known for its exceptional chemical resistance and thermal stability. Designed for demanding environments, FFKM excels in applications requiring resistance to aggressive chemicals, high temperatures, and severe conditions. FFKM can withstand strong acids, bases, ethers, ketones, esters, alcohols, aldehydes, nitrogen compounds, hydrocarbons, oils, steam, and amine-based chemicals, with a maximum operating temperature reaching up to 330°C.</p><p>Chemically, FFKM consists of a fully fluorinated main chain similar to polytetrafluoroethylene (PTFE), providing outstanding chemical resistance and high temperature resistance. Its unique molecular structure includes perfluoroalkyl ether groups, enhancing flexibility and high-temperature performance. Unlike FKM fluoroelastomers, FFKM has all carbon atoms in its main or side chains bonded to fluorine atoms. This advanced composition ensures integrity and performance in extreme environments. FFKM can be differentiated by its cross-linking structure, such as peroxide-cure and nitrile-cure, or categorized as:chemical resistance grade, high temperature resistance grade, and ultra-purity grade. Through compounding formulations, FFKM products can meet certifications like NORSOK M-710/ISO 23936-2 or comply with standards such as USP Class VI and FDA regulations for specific applications.</p>",
+    "mainFeatures": "Key features include:",
+    "ffkmFeature1": "Excellent chemical resistance: Due to its fully fluorinated structure, FFKM resists a wide range of chemicals, making it ideal for chemical processing and industrial applications.",
+    "ffkmFeature2": "Exceptional durability: FFKM offers superior mechanical performance and resistance to compression set, providing durable seals and components in dynamic applications.",
+    "ffkmFeature3": "Excellent Durability: FFKM provides outstanding mechanical properties and compression set resistance, delivering durable sealing in dynamic applications.",
+    "ffkmFeature4": "Excellent air tightness: Vacuum resistance can reach 1.33X10-7~1.33X10-8 pa.",
+    "ffkmFeature5": "Diverse applications: Suitable for industries such as semiconductor manufacturing, pharmaceuticals, oil and gas, and aerospace, FFKM ensures optimal performance in the most demanding environments.",
+    "ffkmConclusion": "Our FFKM elastomer products are designed to meet stringent industry standards. Please contact Fluorez® Technology for more information on our FFKM materials and products. ",
+    "fkmIntro": "Fluoroelastomer FKM has different trade names across different brands. DuPont's™ FKM is known as Viton®, 3M®'s FKM is called Dyneon®; Daikin®'s trade name is DAI-EL®, while fellow Japanese company Asahi Glass® markets theirs as Aflas®. Historically, users often mistakenly thought Viton® was FKM, a misunderstanding caused by long-standing habit. FKM is a fully synthetic high molecular weight elastomer material where carbon atoms in the main chain or side chains are bonded to fluorine atoms. FKM (Fluoroelastomer) characteristics and applications:",
+    "fkmFeatureTitle1": "1. Excellent Temperature Resistance",
+    "fkmFeature1_1": "FKM typically maintains good elasticity and dimensional stability in temperature ranges from -20°C to 230°C. Higher grades of FKM can even work at higher temperatures up to 250°C, or operate at lower temperatures (-50°C).",
+    "fkmFeature1_2": "This characteristic makes FKM particularly outstanding in high-temperature sealing applications, such as automotive engine cylinder gaskets, valve cover seals, turbocharger O-rings, etc.",
+    "fkmFeatureTitle2": "2. Chemical Resistance",
+    "fkmFeature2_1": "FKM has good resistance to various chemicals and solvents, including petroleum products, alkaline solutions, and oxidants. This makes it widely used in sealing and piping systems in petrochemical, chemical processing, and food processing industries.",
+    "fkmFeature2_2": "Particularly in environments with high concentrations of petroleum products and oxidants, FKM can maintain long-term stability and performance.",
+    "fkmFeatureTitle3": "3. Oil Resistance",
+    "fkmFeature3_1": "FKM has excellent oil resistance and can work long-term in petroleum, lubricating oils, and other petrochemical products. This makes it widely used as seals and oil-resistant components in automotive, aviation, and mechanical equipment industries.",
+    "fkmFeatureTitle4": "4. Physical Properties",
+    "fkmFeature4_1": "FKM has excellent tensile strength, wear resistance, and tear strength, ensuring long-term usability under various mechanical stresses.",
+    "fkmFeature4_2": "Its elastic modulus and hardness can be adjusted according to specific application requirements, adapting to different working environments and operating conditions.",
+    "applicationAreas": "Application Areas",
+    "fkmApplication1": "Automotive Industry: Used in engine seals, air conditioning systems, fuel systems, etc.",
+    "fkmApplication2": "Aerospace: Used in aircraft engine seals, hydraulic systems, fuel systems, etc.",
+    "fkmApplication3": "Petrochemical: Used in pipeline seals, valve seals, chemical transport systems, etc.",
+    "fkmApplication4": "Food Processing: Used in food-grade seals, requiring compliance with FDA or EU food contact certification requirements.",
+    "fkmApplication5": "Pharmaceutical Processing and Medical Devices: Used in medical-grade seals, requiring compliance with USP Class VI requirements.",
+    "fkmConclusion": "In summary, FKM has become an indispensable material in many industrial fields due to its excellent performance characteristics, particularly in applications requiring high temperature, chemical resistance, and oil resistance, where FKM can provide reliable solutions.",
+    "pflsIntro": "Perfluorinated Liquids (PFLs) are colorless, transparent, odorless, non-toxic liquids with thermal stability and chemical inertness. Due to the tight bonds formed between the carbon and fluorine atoms in their molecular structure, PFLs exhibit exceptional stability. They do not react with active materials such as metals, plastics, and elastomers, ensuring high stability. Additionally, PFLs possess excellent non-conductive and insulating properties, even at high or low temperatures. Notable PFLs in the market include Galden® by Solvay® and Fluorinert® by 3M®. However, due to their oligopoly, the prices are relatively high. PFLs are ideal for single-phase heat transfer applications in semiconductor and electronic component manufacturing, replacing traditional conductive refrigerants and water. The working temperature range of PFLs is -60 °C to 165 °C, making them suitable for etching machines, ion implantation machines, leak detection equipment (gross leaking test), and shock testing equipment. PFLs are highly volatile with no residue, non-conductive, and can also be used for cleaning electronic components. They have zero ozone depletion potential, are not restricted by the US Environmental Protection Agency (EPA), and are not subject to volatile organic compound management regulations, thus not contributing to ozone layer depletion.",
+    "pflsFeature1": "Non-flammable, even in environments with high oxygen or strong oxidants.",
+    "pflsFeature2": "Non-reactive with metals, plastics, rubbers, or most materials.",
+    "pflsFeature3": "Broad working temperature range: -60 °C to 165 °C.",
+    "pflsFeature4": "Excellent insulation properties at both high and low temperatures.",
+    "pflsFeature5": "Superior heat transfer performance.",
+    "fpdApplications": "FPD applications",
+    "sanitaryApplications": "Sanitary applications"
+  },
+
+  "common": {
+    "openMenu": "Open Category Menu",
+    "mainFunc": "Main Functions"
+  }
+}
