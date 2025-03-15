@@ -1,14 +1,12 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
 import { onMounted, reactive } from "vue";
-import { useI18n } from "vue-i18n";
 export default {
 
   setup() {
-    const { locale } = useI18n();
 
     return {
-      locale
+      
     };
 
   },
@@ -17,5 +15,5 @@ export default {
 </script>
 
 <template>
-  <RouterView :key="locale" />
+  <RouterView />
 </template>
