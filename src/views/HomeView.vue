@@ -1,13 +1,9 @@
 <script>
 import { useRouter, useRoute } from "vue-router";
 import { onMounted, ref } from "vue";
-import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   components: {
-    Header,
-    Footer,
   },
   setup() {
     const router = useRouter();
@@ -16,9 +12,6 @@ export default {
     const handleScroll = () => {
       const targetDiv = document.getElementById("intro");
       const rect = targetDiv.getBoundingClientRect();
-
-      console.log(`rect.bottom: ${rect.bottom}`);
-      console.log(`window.innerHeight: ${window.innerHeight}`);
 
       if (rect.top >= 0 && rect.bottom / 2 <= window.innerHeight) {
         isIntroScolled.value = true;
@@ -37,9 +30,36 @@ export default {
 </script>
 
 <template>
-  <Header />
-  <main id="index">
+  <main>
+    <div id="screen_25_1">
+      <div class="screen_container">
+
+        <div class="left_side">
+          <img src="/assets/img/S25-01-banner2.png" style="width: 80%; margin: 50px 0">
+          <img src="/assets/img/S25-01-food.png">
+        </div>
+
+        <img src="/assets/img/S25-01-banner.png" class="banner">
+
+        <div class="right_side">
+          <img src="/assets/img/S25-01-food2.png">
+          <img src="/assets/img/S25-01-banner3.png" style="width: 60%; margin: 30px 0">
+          <img src="/assets/img/S25-01-food3.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="screen_25_2">
+      <div class="screen_container">
+        <img src="/assets/img/S25-01-screen2.png" class="banner">
+      </div>
+    </div>
+
+    <div id="screen_25_3">
+      <div class="screen_container">
+        <img src="/assets/img/S25-01-screen3.png" class="banner">
+      </div>
+    </div>
 
   </main>
-  <Footer />
 </template>
