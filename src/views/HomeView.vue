@@ -61,5 +61,17 @@ export default {
       </div>
     </div>
 
+    <div id="screen_25_4">
+      <div class="screen_container">
+        <img src="/assets/img/S25-01-screen4.png" class="banner">
+      </div>
+    </div>
+
+    <div id="screen_25_5">
+      <div class="screen_container">
+        <img src="/assets/img/S25-01-screen5.png" class="banner">
+      </div>
+    </div>
+
   </main>
 </template>

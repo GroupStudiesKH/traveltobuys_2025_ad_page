@@ -163,7 +163,7 @@ main{
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 1827px;
+        min-height: 2090px;
         margin-top: -98px;
         z-index: 4;
         position: relative;
@@ -179,6 +179,51 @@ main{
         }
     }
 
+    #screen_25_4{
+
+        background-image: url("/assets/img/S25-01-4.webp");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        text-align: center;
+        min-height: 1100px;
+        margin-top: 0px;
+        z-index: 4;
+        position: relative;
+
+        .screen_container{
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 10vh;
+            .banner{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    #screen_25_5{
+
+        background-image: url("/assets/img/S25-01-5.webp");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        text-align: center;
+        min-height: 2180px;
+        margin-top: 0px;
+        z-index: 4;
+        position: relative;
+
+        .screen_container{
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 10vh;
+            .banner{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
 }
 
 
