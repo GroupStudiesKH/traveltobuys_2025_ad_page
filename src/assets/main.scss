@@ -13,6 +13,79 @@
       transform: translateY(0);
     }
   }
+
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5) translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes fadeInBottomLeft {
+  from {
+    opacity: 0;
+    transform: translate(-50px, 50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeInTopRight {
+  from {
+    opacity: 0;
+    transform: translate(50px, -50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeInBottomRight {
+  from {
+    opacity: 0;
+    transform: translate(50px, 50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes Heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.05);
+  }
+  30% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.03);
+  }
+  60% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
   
   .screen_container {
     opacity: 0;
@@ -161,15 +234,24 @@ table {
                 top: 0;
                 text-align: right;
                 padding-top: 10vh;
-                $base-left-padding-top: 10;
+                $base-left-padding-top: 15;
                 @each $width, $scale in $breakpoints {
                     @media (max-width: #{$width}px) {
                         padding-top: #{$base-left-padding-top * $scale}vh !important;
                     }
                 }    
 
-                img{
+                img {
                     width: 100%;
+                    opacity: 0;
+                }
+
+                img:nth-child(1) {
+                    animation: bounceIn 0.8s ease-out forwards;
+                }
+
+                img:nth-child(2) {
+                    animation: fadeInBottomLeft 0.8s ease-out 0.3s forwards;
                 }
             }
 
@@ -177,6 +259,7 @@ table {
                 width: 45%;
                 margin: 0 auto;
                 max-height: 550px;
+                animation: fadeIn 0.8s ease-out forwards;
             }
 
             .banner1{
@@ -185,6 +268,7 @@ table {
                 position: absolute;
                 left: 30%;
                 top: 72%;
+                animation: Heartbeat 1.5s ease-in-out 0.5s infinite;
             }
 
             .right_side{
@@ -200,8 +284,21 @@ table {
                         padding-top: #{$base-right-padding-top * $scale}vh !important;
                     }
                 } 
-                img{
+                img {
                     width: 100%;
+                    opacity: 0;
+                }
+
+                img:nth-child(1) {
+                    animation: fadeInTopRight 0.8s ease-out forwards;
+                }
+
+                img:nth-child(2) {
+                    animation: bounceIn 0.8s ease-out 0.3s forwards;
+                }
+
+                img:nth-child(3) {
+                    animation: fadeInBottomRight 0.8s ease-out 0.6s forwards;
                 }
             }
         }
