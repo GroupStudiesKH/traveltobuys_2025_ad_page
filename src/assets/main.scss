@@ -76,6 +76,18 @@
   }
 }
 
+@keyframes shakeY {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -383,6 +395,17 @@ table {
             .banner{
                 width: 100%;
                 margin: 0 auto;
+                z-index: 1;
+            }
+
+            .add{
+                width: 12%;
+                min-width: 100px;
+                position: absolute;
+                top: 10%;
+                right: 5%;
+                z-index: 2;
+                animation: shakeY 0.8s ease-out infinite;
             }
         }
     }
