@@ -64,15 +64,16 @@ export default {
       <div class="screen_container animate">
 
         <div class="left_side">
-          <img src="/assets/img/S25-01-banner2.webp" style="width: 80%; margin: 50px 0">
+          <img src="/assets/img/S25-01-banner2.webp" style="width: 80%; margin: 5% 0">
           <img src="/assets/img/S25-01-food.webp">
         </div>
 
         <img src="/assets/img/S25-01-banner.webp" class="banner">
+        <img src="/assets/img/S25-01-banner1.webp" class="banner1">
 
         <div class="right_side">
           <img src="/assets/img/S25-01-food2.webp">
-          <img src="/assets/img/S25-01-banner3.webp" style="width: 60%; margin: 30px 0">
+          <img src="/assets/img/S25-01-banner3.webp" style="width: 60%; margin: 5% 0">
           <img src="/assets/img/S25-01-food3.webp">
         </div>
       </div>

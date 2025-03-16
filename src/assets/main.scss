@@ -155,9 +155,9 @@ table {
             }
 
             .left_side{
-                width: 25%;
+                width: 50%;
                 position: absolute;
-                left: 8%;
+                left: -28%;
                 top: 0;
                 text-align: right;
                 padding-top: 10vh;
@@ -174,18 +174,27 @@ table {
             }
 
             .banner{
-                width: 50%;
+                width: 45%;
                 margin: 0 auto;
+                max-height: 550px;
+            }
+
+            .banner1{
+                width: 40%;
+                margin: 0 auto;
+                position: absolute;
+                left: 30%;
+                top: 72%;
             }
 
             .right_side{
-                width: 27%;
+                width: 50%;
                 position: absolute;
-                right: 5%;
+                right: -28%;
                 top: 0;
                 text-align: left;
-                padding-top: 10vh;
-                $base-right-padding-top: 10;
+                padding-top: 8vh;
+                $base-right-padding-top: 15;
                 @each $width, $scale in $breakpoints {
                     @media (max-width: #{$width}px) {
                         padding-top: #{$base-right-padding-top * $scale}vh !important;
