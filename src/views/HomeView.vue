@@ -51,6 +51,9 @@ export default {
           case "screen_25_7":
           case "screen_25_8":
           case "screen_25_9":
+          case "screen_25_10":
+          case "screen_25_11":
+          case "screen_25_12":
             el.classList.add("animate");
             break;
           case "screen_25_3":
@@ -139,6 +142,24 @@ export default {
     <div id="screen_25_9">
       <div class="screen_container">
         <img src="/assets/img/S25-02-screen4.webp" class="banner" />
+      </div>
+    </div>
+
+    <div id="screen_25_10">
+      <div class="screen_container animate">
+        <img src="/assets/img/S25_03_screen1.webp" class="banner">
+      </div>
+    </div>
+
+    <div id="screen_25_11">
+      <div class="screen_container">
+        <img src="/assets/img/S25_03_screen2.webp" class="banner">
+        <img src="/assets/img/S25_03_screen3.webp" class="banner">
+      </div>
+    </div>
+
+    <div id="screen_25_12">
+      <div class="screen_container">
       </div>
     </div>
 

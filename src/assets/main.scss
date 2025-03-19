@@ -758,6 +758,140 @@ table {
         }
     }
 
+    #screen_25_10{
+      background-image: url("/assets/img/S25-03-1.webp");
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      text-align: center;
+      z-index: 10;
+      position: relative;
+      min-height: 1260px;
+      /* 使用迴圈生成不同螢幕寬度的高度設定 */
+      $base-height: 1260;
+      $breakpoints: (
+        920: 0.9,
+        800: 0.8,
+        768: 0.7,  /* 平板 */
+        700: 0.6,
+        576: 0.45,  /* 手機橫向 */
+        430: 0.4,
+        375: 0.35   /* 手機直向 */
+      );
+
+      @each $width, $scale in $breakpoints {
+          @media (max-width: #{$width}px) {
+              min-height: #{$base-height * $scale}px !important;
+          }
+      }
+
+      .screen_container{
+          width: 100%;
+          margin: 0 auto;
+          padding-top: 10vh;
+          $base-padding-top: 10;
+          @each $width, $scale in $breakpoints {
+              @media (max-width: #{$width}px) {
+                  padding-top: #{$base-padding-top * $scale}vh !important;
+              }
+          }
+
+          .banner{
+              width: 100%;
+              margin: 0 auto;
+          }
+
+      }
+  }
+
+  #screen_25_11{
+
+      background-image: url("/assets/img/S25-03-2.webp");
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      z-index: 9;
+      position: relative;
+      text-align: center;
+      min-height: 2577px;
+      margin-top: -72px;
+      $base-height: 2577;
+      $base-margin-top: -72;
+      $breakpoints: (
+        920: 0.9,
+        800: 0.8,
+        768: 0.7,  /* 平板 */
+        700: 0.6,
+        576: 0.45,  /* 手機橫向 */
+        430: 0.4,
+        375: 0.35   /* 手機直向 */
+      );
+      z-index: 9;
+      position: relative;
+      @each $width, $scale in $breakpoints {
+          @media (max-width: #{$width}px) {
+              min-height: #{$base-height * $scale}px !important;
+              margin-top: #{$base-margin-top * $scale}px!important;
+          }
+      }
+
+      .screen_container{
+          width: 100%;
+          margin: 0 auto;
+          padding-top: 12vh;
+          $base-padding-top: 12;
+          @each $width, $scale in $breakpoints {
+              @media (max-width: #{$width}px) {
+                  padding-top: #{$base-padding-top * $scale}vh !important;
+              }
+          }
+
+          .banner{
+              width: 100%;
+              margin: 0 auto;
+          }
+      }
+  }
+
+  #screen_25_12{
+
+      background-image: url("/assets/img/S25-03-3.webp");
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      text-align: center;
+      min-height: 189px;
+      margin-top: -3px;
+      position: relative;
+      z-index: 8;
+      $base-height: 189;
+      $breakpoints: (
+        920: 0.9,
+        800: 0.8,
+        768: 0.7,  /* 平板 */
+        700: 0.6,
+        576: 0.45,  /* 手機橫向 */
+        430: 0.4,
+        375: 0.35   /* 手機直向 */
+      );
+
+      @each $width, $scale in $breakpoints {
+          @media (max-width: #{$width}px) {
+              min-height: #{$base-height * $scale}px !important;
+          }
+      }
+
+
+      .screen_container{
+          width: 100%;
+          margin: 0 auto;
+          padding-top: 10vh;
+          .banner{
+              width: 100%;
+              margin: 0 auto;
+          }
+      }
+  }
 
 
 
