@@ -120,11 +120,11 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    background-color: #F5F5F5 !important;
+    background-color: rgba(250, 194, 50, 0.5) !important;
 }
 
 main{
-  max-width: 2000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -143,6 +143,17 @@ li {
 b,
 strong {
     font-weight: 600;
+}
+
+.add{
+  img{
+    width: 112px;
+  }
+  animation: shakeY 0.8s ease-out infinite;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  z-index: 99;
 }
 
 .modal {
@@ -214,46 +225,40 @@ table {
         text-align: center;
         z-index: 10;
         position: relative;
-        min-height: 1070px;
+        min-height: 700px;
         /* 使用迴圈生成不同螢幕寬度的高度設定 */
-        $base-height: 1070;
+        $base-height: 700;
 
         $breakpoints: (
-            1600: 0.9,
-            1440: 0.85,
-            1366: 0.8,
-            1280: 0.7,
-            1024: 0.6,
-            920: 0.5,
-            800: 0.5,
-            768: 0.5,  /* 平板 */
-            700: 0.4,
-            576: 0.3,  /* 手機橫向 */
-            430: 0.25,
-            375: 0.2   /* 手機直向 */
+            920: 0.9,
+            800: 0.8,
+            768: 0.7,  /* 平板 */
+            700: 0.6,
+            576: 0.5,  /* 手機橫向 */
+            430: 0.4,
+            375: 0.3   /* 手機直向 */
         );
 
         @each $width, $scale in $breakpoints {
             @media (max-width: #{$width}px) {
                 min-height: #{$base-height * $scale}px !important;
-                
             }
         }
 
         .screen_container{
             width: 58%;
             margin: 0 auto;
-            padding-top: 22vh;
-            $base-padding-top: 22;
+            padding-top: 20vh;
+            $base-padding-top: 20 ;
 
             $padding-breakpoints: (
-              1600: 0.9,
-              1440: 0.85,
-              1366: 0.8,
-              1280: 0.7,
-              1024: 0.6,
-              920: 0.55,
-              575: 0.35,  /* 手機橫向 */
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
             );
 
             @each $width, $scale in $padding-breakpoints {
@@ -263,16 +268,20 @@ table {
             }
 
             .left_side{
-                width: 50%;
+                width: 320px;
                 position: absolute;
-                left: -28%;
+                left: -200px;
                 top: 0;
                 text-align: right;
-                padding-top: 10vh;
-                $base-left-padding-top: 10;
+                padding-top: 50px;
+                $base-left-padding-top: 50;
+                $base-left: -200;
+                $base-width: 320;
                 @each $width, $scale in $breakpoints {
                     @media (max-width: #{$width}px) {
-                        padding-top: #{$base-left-padding-top * $scale}vh !important;
+                        padding-top: #{$base-left-padding-top * $scale}px !important;
+                        left: #{$base-left * $scale}px !important;
+                        width: #{$base-width * $scale}px !important;
                     }
                 }    
 
@@ -307,16 +316,20 @@ table {
             }
 
             .right_side{
-                width: 50%;
+                width: 340px;
                 position: absolute;
-                right: -28%;
+                right: -200px;
                 top: 0;
-                text-align: left;
-                padding-top: 8vh;
-                $base-right-padding-top: 10;
+                text-align: center;
+                padding-top: 50px;
+                $base-right-padding-top: 50;
+                $base-right: -200;
+                $base-width: 340;
                 @each $width, $scale in $breakpoints {
                     @media (max-width: #{$width}px) {
-                        padding-top: #{$base-right-padding-top * $scale}vh !important;
+                        padding-top: #{$base-right-padding-top * $scale}px !important;
+                        right: #{$base-right * $scale}px !important;
+                        width: #{$base-width * $scale}px !important;
                     }
                 } 
                 img {
@@ -346,21 +359,18 @@ table {
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 1350px;
-        margin-top: -110px;
-        $base-height: 1350;
-        $base-margin-top: -110;
+        min-height: 830px;
+        margin-top: -66px;
+        $base-height: 830;
+        $base-margin-top: -66;
         $breakpoints: (
-            1600: 0.9,
-            1440: 0.8,
-            1366: 0.7,
-            1280: 0.6,
-            1024: 0.62,
-            920: 0.55,
-            768: 0.48,  /* 平板 */
-            576: 0.35,  /* 手機橫向 */
-            430: 0.3,
-            375: 0.28   /* 手機直向 */
+          920: 0.9,
+          800: 0.8,
+          768: 0.7,  /* 平板 */
+          700: 0.6,
+          576: 0.5,  /* 手機橫向 */
+          430: 0.4,
+          375: 0.3   /* 手機直向 */
         );
         z-index: 9;
         position: relative;
@@ -377,12 +387,13 @@ table {
             padding-top: 10vh;
             $base-padding-top: 10;
             $padding-breakpoints: (
-              1600: 0.9,
-              1440: 0.85,
-              1366: 0.8,
-              1280: 0.7,
-              1024: 0.6,
-              920: 0.55,
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
             );
 
             @each $width, $scale in $padding-breakpoints {
@@ -405,23 +416,20 @@ table {
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 2180px;
-        margin-top: -150px;
+        min-height: 1320px;
+        margin-top: -90px;
         position: relative;
         z-index: 8;
-        $base-height: 2180;
-        $base-margin-top: -150;
+        $base-height: 1320;
+        $base-margin-top: -90;
         $breakpoints: (
-            1600: 0.9,
-            1440: 0.8,
-            1366: 0.7,
-            1280: 0.6,
-            1024: 0.55,
-            920: 0.5,
-            768: 0.43,  /* 平板 */
-            576: 0.32,  /* 手機橫向 */
-            430: 0.27,
-            375: 0.22   /* 手機直向 */
+          920: 0.9,
+          800: 0.8,
+          768: 0.7,  /* 平板 */
+          700: 0.6,
+          576: 0.5,  /* 手機橫向 */
+          430: 0.4,
+          375: 0.3   /* 手機直向 */
         );
 
         @each $width, $scale in $breakpoints {
@@ -438,12 +446,13 @@ table {
             padding-top: 10vh;
             $base-padding-top: 10;
             $padding-breakpoints: (
-              1600: 0.9,
-              1440: 0.85,
-              1366: 0.8,
-              1280: 0.7,
-              1024: 0.6,
-              920: 0.55,
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
             );
 
             @each $width, $scale in $padding-breakpoints {
@@ -456,16 +465,6 @@ table {
                 margin: 0 auto;
                 z-index: 1;
             }
-
-            .add{
-                width: 12%;
-                min-width: 100px;
-                position: absolute;
-                top: 10%;
-                right: 5%;
-                z-index: 2;
-                animation: shakeY 0.8s ease-out infinite;
-            }
         }
     }
 
@@ -476,18 +475,17 @@ table {
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 1160px;
+        min-height: 696px;
         position: relative;
-        $base-height: 1160;
+        $base-height: 696;
         $breakpoints: (
-            1440: 0.9,
-            1366: 0.8,
-            1280: 0.7,
-            1024: 0.6,
-            920: 0.55,
-            768: 0.5,  /* 平板 */
-            576: 0.3,  /* 手機橫向 */
-            375: 0.25   /* 手機直向 */
+          920: 0.9,
+          800: 0.8,
+          768: 0.7,  /* 平板 */
+          700: 0.6,
+          576: 0.5,  /* 手機橫向 */
+          430: 0.4,
+          375: 0.3   /* 手機直向 */
         );
 
         @each $width, $scale in $breakpoints {
@@ -502,11 +500,13 @@ table {
             padding-top: 10vh;
             $base-padding-top: 10;
             $padding-breakpoints: (
-              1440: 0.9,
-              1366: 0.85,
-              1280: 0.8,
-              1024: 0.7,
-              920: 0.6,
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
             );
 
             @each $width, $scale in $padding-breakpoints {
@@ -528,20 +528,18 @@ table {
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 2280px;
+        min-height: 1368px;
         margin-top: 0px;
         position: relative;
-        $base-height: 2280;
+        $base-height: 1368;
         $breakpoints: (
-            1440: 0.9,
-            1366: 0.7,
-            1280: 0.6,
-            1024: 0.55,
-            920: 0.5,
-            768: 0.45,  /* 平板 */
-            576: 0.3,  /* 手機橫向 */
-            430: 0.25,
-            375: 0.23   /* 手機直向 */
+          920: 0.8,
+          800: 0.7,
+          768: 0.6,  /* 平板 */
+          700: 0.5,
+          576: 0.45,  /* 手機橫向 */
+          430: 0.4,
+          375: 0.3   /* 手機直向 */
         );
 
         @each $width, $scale in $breakpoints {
@@ -556,11 +554,13 @@ table {
             padding-top: 10vh;
             $base-padding-top: 10;
             $padding-breakpoints: (
-              1440: 0.9,
-              1366: 0.85,
-              1280: 0.8,
-              1024: 0.7,
-              920: 0.6,
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
             );
 
             @each $width, $scale in $padding-breakpoints {

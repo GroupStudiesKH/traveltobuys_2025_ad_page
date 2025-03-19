@@ -88,7 +88,6 @@ export default {
     <div id="screen_25_3">
       <div class="screen_container">
         <img src="/assets/img/S25-01-screen3.webp" class="banner">
-        <img src="/assets/img/S25-01-add.webp" class="add">
       </div>
     </div>
 
@@ -103,6 +102,9 @@ export default {
         <img src="/assets/img/S25-01-screen5.webp" class="banner">
       </div>
     </div>
+
+    <a class="add"><img src="/assets/img/S25-01-add.webp"></a>
+
 
   </main>
 </template>
