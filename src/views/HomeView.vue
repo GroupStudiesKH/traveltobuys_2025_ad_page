@@ -43,11 +43,25 @@ export default {
       );
 
       screenRefs.value.forEach((el) => {
-        if (el.parentElement.id == "screen_25_2" || el.parentElement.id == "screen_25_4" ) {
-          defaultObserver.observe(el);
-        } else if(el.parentElement.id == "screen_25_3" || el.parentElement.id == "screen_25_5") {
-          screen25_4Observer.observe(el);
+
+        switch (el.parentElement.id) {
+          case "screen_25_2":
+          case "screen_25_4":
+          case "screen_25_6":
+          case "screen_25_7":
+          case "screen_25_8":
+          case "screen_25_9":
+            el.classList.add("animate");
+            break;
+          case "screen_25_3":
+          case "screen_25_5":
+            screen25_4Observer.observe(el);
+            break;
+          default:
+            break;
         }
+
+
       });
 
     });
@@ -100,6 +114,31 @@ export default {
     <div id="screen_25_5">
       <div class="screen_container">
         <img src="/assets/img/S25-01-screen5.webp" class="banner">
+      </div>
+    </div>
+
+
+    <div id="screen_25_6">
+      <div class="screen_container animate">
+        <img src="/assets/img/S25-02-screen1.webp" class="banner" />
+      </div>
+    </div>
+
+    <div id="screen_25_7">
+      <div class="screen_container">
+        <img src="/assets/img/S25-02-screen2.webp" class="banner" />
+      </div>
+    </div>
+
+    <div id="screen_25_8">
+      <div class="screen_container">
+        <img src="/assets/img/S25-02-screen3.webp" class="banner" />
+      </div>
+    </div>
+
+    <div id="screen_25_9">
+      <div class="screen_container">
+        <img src="/assets/img/S25-02-screen4.webp" class="banner" />
       </div>
     </div>
 
