@@ -148,11 +148,14 @@ strong {
 .add{
   img{
     width: 112px;
+    @media (max-width: 768px) {
+      width: 80px;
+    }
   }
   animation: shakeY 0.8s ease-out infinite;
   position: fixed;
   bottom: 10%;
-  right: 5%;
+  right: calc(calc(100% - 1200px) / 2);
   z-index: 99;
 }
 
