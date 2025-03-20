@@ -49,6 +49,8 @@ export default {
           case "screen_25_2":
           case "screen_25_4":
           case "screen_25_5":
+          case "screen_25_51":
+          case "screen_25_52":
           case "screen_25_6":
           case "screen_25_7":
           case "screen_25_8":
@@ -120,6 +122,17 @@ export default {
       </div>
     </div>
 
+    <div id="screen_25_51">
+      <div class="screen_container">
+        <img src="/assets/img/S25-01-screen6.webp" class="banner">
+      </div>
+    </div>
+
+    <div id="screen_25_52">
+      <div class="screen_container">
+        <img src="/assets/img/S25-01-screen7.webp" class="banner">
+      </div>
+    </div>
 
     <div id="screen_25_6">
       <div class="screen_container animate">

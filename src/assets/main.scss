@@ -581,17 +581,128 @@ table {
         }
     }
 
+    #screen_25_51{
+
+        background-image: url("/assets/img/S25-01-6.webp");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        text-align: center;
+        min-height: 833px;
+        position: relative;
+        z-index: 7;
+        $base-height: 833;
+        $breakpoints: (
+          920: 0.9,
+          800: 0.8,
+          768: 0.7,  /* 平板 */
+          700: 0.6,
+          576: 0.5,  /* 手機橫向 */
+          430: 0.4,
+          375: 0.3   /* 手機直向 */
+        );
+
+        @each $width, $scale in $breakpoints {
+            @media (max-width: #{$width}px) {
+                min-height: #{$base-height * $scale}px !important;
+            }
+        }
+
+        .screen_container{
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 10vh;
+            $base-padding-top: 10;
+            $padding-breakpoints: (
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
+            );
+
+            @each $width, $scale in $padding-breakpoints {
+                @media (max-width: #{$width}px) {
+                    padding-top: #{$base-padding-top * $scale}vh !important;
+                }
+            }
+            .banner{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    #screen_25_52{
+
+        background-image: url("/assets/img/S25-01-7.webp");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        text-align: center;
+        min-height: 1500px;
+        margin-top: -65px;
+        position: relative;
+        z-index: 6;
+        $base-margin-top: -65;
+        $base-height: 1500;
+        $breakpoints: (
+          920: 0.9,
+          800: 0.8,
+          768: 0.7,  /* 平板 */
+          700: 0.6,
+          576: 0.5,  /* 手機橫向 */
+          430: 0.4,
+          375: 0.3   /* 手機直向 */
+        );
+
+        @each $width, $scale in $breakpoints {
+            @media (max-width: #{$width}px) {
+                min-height: #{$base-height * $scale}px !important;
+                margin-top: #{$base-margin-top * $scale}px!important;
+            }
+        }
+
+        .screen_container{
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 10vh;
+            $base-padding-top: 10;
+            $padding-breakpoints: (
+              920: 0.9,
+              800: 0.8,
+              768: 0.7,  /* 平板 */
+              700: 0.6,
+              576: 0.5,  /* 手機橫向 */
+              430: 0.4,
+              375: 0.3   /* 手機直向 */
+            );
+
+            @each $width, $scale in $padding-breakpoints {
+                @media (max-width: #{$width}px) {
+                    padding-top: #{$base-padding-top * $scale}vh !important;
+                }
+            }
+            .banner{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
     #screen_25_6{
       background-image: url("/assets/img/S25-02-1.webp");
       background-size: cover;
       background-position: top center;
       background-repeat: no-repeat;
       text-align: center;
-      z-index: 10;
+      z-index: 5;
       position: relative;
-      min-height: 1248px;
+      min-height: 1314px;
       /* 使用迴圈生成不同螢幕寬度的高度設定 */
-      $base-height: 1248;
+      $base-height: 1314;
       $breakpoints: (
         920: 0.9,
         800: 0.8,
@@ -645,7 +756,7 @@ table {
           430: 0.4,
           375: 0.35   /* 手機直向 */
         );
-        z-index: 9;
+        z-index: 4;
         position: relative;
         @each $width, $scale in $breakpoints {
             @media (max-width: #{$width}px) {
@@ -682,7 +793,7 @@ table {
         min-height: 1200px;
         margin-top: -132px;
         position: relative;
-        z-index: 8;
+        z-index: 3;
         $base-height: 1200;
         $base-margin-top: -132;
         $breakpoints: (
@@ -729,7 +840,7 @@ table {
         text-align: center;
         min-height: 2010px;
         position: relative;
-        z-index: 7;
+        z-index: 2;
         $base-height: 2010;
         $breakpoints: (
           920: 0.9,
@@ -770,7 +881,7 @@ table {
       background-position: top center;
       background-repeat: no-repeat;
       text-align: center;
-      z-index: 10;
+      z-index: 1;
       position: relative;
       min-height: 1260px;
       /* 使用迴圈生成不同螢幕寬度的高度設定 */
@@ -816,7 +927,7 @@ table {
       background-size: cover;
       background-position: top center;
       background-repeat: no-repeat;
-      z-index: 9;
+      z-index: 0;
       position: relative;
       text-align: center;
       min-height: 2577px;
@@ -869,7 +980,7 @@ table {
       min-height: 189px;
       margin-top: -3px;
       position: relative;
-      z-index: 8;
+      z-index: -1;
       $base-height: 189;
       $breakpoints: (
         920: 0.9,
