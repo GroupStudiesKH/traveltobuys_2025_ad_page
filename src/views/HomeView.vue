@@ -45,19 +45,19 @@ export default {
       screenRefs.value.forEach((el) => {
 
         switch (el.parentElement.id) {
+          case "screen_25_3":
           case "screen_25_2":
           case "screen_25_4":
+          case "screen_25_5":
           case "screen_25_6":
           case "screen_25_7":
           case "screen_25_8":
-          case "screen_25_9":
           case "screen_25_10":
-          case "screen_25_11":
           case "screen_25_12":
-            el.classList.add("animate");
+            defaultObserver.observe(el)
             break;
-          case "screen_25_3":
-          case "screen_25_5":
+          case "screen_25_9":
+          case "screen_25_11":
             screen25_4Observer.observe(el);
             break;
           default:
