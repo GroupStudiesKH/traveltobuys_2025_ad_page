@@ -254,22 +254,21 @@ table {
         .screen_container{
             width: 58%;
             margin: 0 auto;
-            padding-top: 16vh;
-            $base-padding-top: 20 ;
+            padding-top: 150px;
+            $base-padding-top: 150;
 
             $padding-breakpoints: (
               920: 0.9,
               800: 0.8,
               768: 0.7,  /* 平板 */
               700: 0.6,
-              576: 0.5,  /* 手機橫向 */
-              430: 0.4,
+              576: 0.55,  /* 手機橫向 */
               375: 0.3   /* 手機直向 */
             );
 
             @each $width, $scale in $padding-breakpoints {
                 @media (max-width: #{$width}px) {
-                    padding-top: #{$base-padding-top * $scale}vh !important;
+                    padding-top: #{$base-padding-top * $scale}px !important;
                 }
             }
 

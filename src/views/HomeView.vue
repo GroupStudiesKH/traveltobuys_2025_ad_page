@@ -176,7 +176,7 @@ export default {
       </div>
     </div>
 
-    <a class="add"><img src="/assets/img/S25-01-add.webp"></a>
+    <a class="add" href="https://manage.tigerairtw.com/zh-TW/search-order?_gl=1*1e2lpps*_gcl_aw*R0NMLjE3NDIyODkyNjcuQ2owS0NRandzLVMtQmhEMkFSSXNBTHNzRzBaYXVkUDR1aVBQbDZLNG1TQm1hWklrYjhsbGwwejRRV2U2SElHeUdXU1VETWZCaU1GU0Jvc2FBbWRTRUFMd193Y0I.*_gcl_au*MTQyMjQxMDc5Mi4xNzQwNjM1Nzk4*_ga*MjA3NzQ2MjA4NS4xNzMyODQ2NDQ2*_ga_SNXJDVLRNM*MTc0Mjc4MDI2Ni40NC4wLjE3NDI3ODAyNjYuNjAuMC4w" target="_blank"><img src="/assets/img/S25-01-add.webp"></a>
 
 
   </main>
