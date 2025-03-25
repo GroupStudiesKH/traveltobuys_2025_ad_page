@@ -228,7 +228,7 @@ table {
 
 
     #screen_25_1{
-        background-image: url("/assets/img/S25-01-1.webp");
+        background-image: url("/assets/img/W25-01-1.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -364,7 +364,7 @@ table {
 
     #screen_25_2{
         overflow: hidden;
-        background-image: url("/assets/img/S25-01-2.webp");
+        background-image: url("/assets/img/W25-01-2.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -421,7 +421,7 @@ table {
 
     #screen_25_3{
         overflow: hidden;
-        background-image: url("/assets/img/S25-01-3.webp");
+        background-image: url("/assets/img/W25-01-3.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -439,6 +439,7 @@ table {
           700: 0.6,
           576: 0.5,  /* 手機橫向 */
           430: 0.4,
+          390: 0.35,
           375: 0.3   /* 手機直向 */
         );
 
@@ -480,7 +481,7 @@ table {
 
     #screen_25_4{
         overflow: hidden;
-        background-image: url("/assets/img/S25-01-4.webp");
+        background-image: url("/assets/img/W25-01-4.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -533,7 +534,7 @@ table {
 
     #screen_25_5{
         overflow: hidden;
-        background-image: url("/assets/img/S25-01-5.webp");
+        background-image: url("/assets/img/W25-01-5.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -549,6 +550,7 @@ table {
           700: 0.6,
           576: 0.45,  /* 手機橫向 */
           430: 0.4,
+          390: 0.35,
           375: 0.33   /* 手機直向 */
         );
 
@@ -587,7 +589,7 @@ table {
 
     #screen_25_51{
         overflow: hidden;
-        background-image: url("/assets/img/S25-01-6.webp");
+        background-image: url("/assets/img/W25-01-6.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -641,16 +643,16 @@ table {
 
     #screen_25_52{
         overflow: hidden;
-        background-image: url("/assets/img/S25-01-7.webp");
+        background-image: url("/assets/img/W25-01-7.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
         min-height: 1500px;
-        margin-top: -65px;
+        margin-top: -105px;
         position: relative;
         z-index: 6;
-        $base-margin-top: -65;
+        $base-margin-top: -105;
         $base-height: 1500;
         $breakpoints: (
           920: 0.9,
@@ -659,7 +661,7 @@ table {
           700: 0.6,
           576: 0.5,  /* 手機橫向 */
           430: 0.4,
-          375: 0.3   /* 手機直向 */
+          390: 0.3,
         );
 
         @each $width, $scale in $breakpoints {
@@ -681,7 +683,7 @@ table {
               700: 0.6,
               576: 0.5,  /* 手機橫向 */
               430: 0.4,
-              375: 0.3   /* 手機直向 */
+              390: 0.3,
             );
 
             @each $width, $scale in $padding-breakpoints {
@@ -698,7 +700,7 @@ table {
 
     #screen_25_6{
       overflow: hidden;
-      background-image: url("/assets/img/S25-02-1.webp");
+      background-image: url("/assets/img/W25-02-1.webp");
       background-size: cover;
       background-position: top center;
       background-repeat: no-repeat;
@@ -715,7 +717,7 @@ table {
         700: 0.6,
         576: 0.45,  /* 手機橫向 */
         430: 0.4,
-        375: 0.35   /* 手機直向 */
+        390: 0.35   /* 手機直向 */
       );
 
       @each $width, $scale in $breakpoints {
@@ -744,7 +746,7 @@ table {
 
     #screen_25_7{
         overflow: hidden;
-        background-image: url("/assets/img/S25-02-2.webp");
+        background-image: url("/assets/img/W25-02-2.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -790,7 +792,7 @@ table {
 
     #screen_25_8{
         overflow: hidden;
-        background-image: url("/assets/img/S25-02-3.webp");
+        background-image: url("/assets/img/W25-02-3.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -838,7 +840,7 @@ table {
 
     #screen_25_9{
         overflow: hidden;
-        background-image: url("/assets/img/S25-02-4.webp");
+        background-image: url("/assets/img/W25-02-4.webp");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -854,7 +856,7 @@ table {
           700: 0.6,
           576: 0.45,  /* 手機橫向 */
           430: 0.4,
-          375: 0.35   /* 手機直向 */
+          390: 0.35   /* 手機直向 */
         );
 
         @each $width, $scale in $breakpoints {
@@ -882,12 +884,12 @@ table {
 
     #screen_25_10{
       overflow: hidden;
-      background-image: url("/assets/img/S25-03-1.webp");
+      background-image: url("/assets/img/W25-03-1.webp");
       background-size: cover;
       background-position: top center;
       background-repeat: no-repeat;
       text-align: center;
-      z-index: 1;
+      z-index: 10;
       position: relative;
       min-height: 1260px;
       /* 使用迴圈生成不同螢幕寬度的高度設定 */
@@ -899,7 +901,7 @@ table {
         700: 0.6,
         576: 0.45,  /* 手機橫向 */
         430: 0.4,
-        375: 0.35   /* 手機直向 */
+        390: 0.35   /* 手機直向 */
       );
 
       @each $width, $scale in $breakpoints {
@@ -929,7 +931,7 @@ table {
 
   #screen_25_11{
       overflow: hidden;
-      background-image: url("/assets/img/S25-03-2.webp");
+      background-image: url("/assets/img/W25-03-2.webp");
       background-size: cover;
       background-position: top center;
       background-repeat: no-repeat;
@@ -978,7 +980,7 @@ table {
 
   #screen_25_12{
       overflow: hidden;
-      background-image: url("/assets/img/S25-03-3.webp");
+      background-image: url("/assets/img/W25-03-3.webp");
       background-size: cover;
       background-position: top center;
       background-repeat: no-repeat;
