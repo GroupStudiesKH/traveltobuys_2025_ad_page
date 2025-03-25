@@ -103,11 +103,14 @@
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.8s ease-out;
-  
+    will-change: opacity, transform;
     &.animate {
       opacity: 1;
       transform: translateY(0);
       animation: fadeInUp 0.8s ease-out forwards;
+      @media (max-width: 768px) {
+        animation: fadeInUp 0.15s ease-out forwards;   
+      }
     }
   }
 
@@ -121,6 +124,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: rgba(250, 194, 50, 0.5) !important;
+    -webkit-overflow-scrolling: touch;
 }
 
 main{
@@ -234,6 +238,7 @@ table {
         min-height: 700px;
         /* 使用迴圈生成不同螢幕寬度的高度設定 */
         $base-height: 700;
+        overflow: hidden;
 
         $breakpoints: (
             920: 0.9,
@@ -358,7 +363,7 @@ table {
     }
 
     #screen_25_2{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-01-2.webp");
         background-size: cover;
         background-position: top center;
@@ -415,7 +420,7 @@ table {
     }
 
     #screen_25_3{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-01-3.webp");
         background-size: cover;
         background-position: top center;
@@ -474,7 +479,7 @@ table {
     }
 
     #screen_25_4{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-01-4.webp");
         background-size: cover;
         background-position: top center;
@@ -527,7 +532,7 @@ table {
     }
 
     #screen_25_5{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-01-5.webp");
         background-size: cover;
         background-position: top center;
@@ -581,7 +586,7 @@ table {
     }
 
     #screen_25_51{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-01-6.webp");
         background-size: cover;
         background-position: top center;
@@ -635,7 +640,7 @@ table {
     }
 
     #screen_25_52{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-01-7.webp");
         background-size: cover;
         background-position: top center;
@@ -692,6 +697,7 @@ table {
     }
 
     #screen_25_6{
+      overflow: hidden;
       background-image: url("/assets/img/S25-02-1.webp");
       background-size: cover;
       background-position: top center;
@@ -737,7 +743,7 @@ table {
     }
 
     #screen_25_7{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-02-2.webp");
         background-size: cover;
         background-position: top center;
@@ -783,7 +789,7 @@ table {
     }
 
     #screen_25_8{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-02-3.webp");
         background-size: cover;
         background-position: top center;
@@ -831,7 +837,7 @@ table {
     }
 
     #screen_25_9{
-
+        overflow: hidden;
         background-image: url("/assets/img/S25-02-4.webp");
         background-size: cover;
         background-position: top center;
@@ -875,6 +881,7 @@ table {
     }
 
     #screen_25_10{
+      overflow: hidden;
       background-image: url("/assets/img/S25-03-1.webp");
       background-size: cover;
       background-position: top center;
@@ -921,7 +928,7 @@ table {
   }
 
   #screen_25_11{
-
+      overflow: hidden;
       background-image: url("/assets/img/S25-03-2.webp");
       background-size: cover;
       background-position: top center;
@@ -940,7 +947,7 @@ table {
         700: 0.6,
         576: 0.45,  /* 手機橫向 */
         430: 0.4,
-        375: 0.35   /* 手機直向 */
+        390: 0.35   /* 手機直向 */
       );
       z-index: 9;
       position: relative;
@@ -970,7 +977,7 @@ table {
   }
 
   #screen_25_12{
-
+      overflow: hidden;
       background-image: url("/assets/img/S25-03-3.webp");
       background-size: cover;
       background-position: top center;
@@ -1007,6 +1014,3 @@ table {
           }
       }
   }
-
-
-
